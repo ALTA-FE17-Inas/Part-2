@@ -9,7 +9,7 @@ function palindrome(string: string){
     return stringAsli === stringDibalik;
 }
 
-// Contoh penggunaan
+
 console.log(palindrome("civic"));         // Output: true
 console.log(palindrome("katak"));         // Output: true
 console.log(palindrome("kasur rusak"));   // Output: true
