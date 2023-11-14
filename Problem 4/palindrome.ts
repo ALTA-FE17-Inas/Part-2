@@ -1,6 +1,6 @@
 function palindrome(stringDibalik: string): boolean {
     const a = stringDibalik.length;
-    // catatan pribadi.. atau bisa juga pake let i = 0; i < a / 2; i++
+    // catatan pribadi.. atau bisa juga pakai (let i = 0; i < a / 2; i++)
     for (let i = 0; i < Math.floor(a / 2); i++) { 
         if (stringDibalik[i] !== stringDibalik[a - i - 1]) {
             return false;
@@ -13,8 +13,8 @@ function palindrome(stringDibalik: string): boolean {
         bisa pakai cara ini
     */ 
     
-    // let/var stringAsli = "";
-    // for (let/var i = stringDibalik.length - 1; i >= 0; i--) {
+    // let stringAsli = "";
+    // for (let i = stringDibalik.length - 1; i >= 0; i--) {
     //     stringAsli += stringDibalik[i];
     // }
     
